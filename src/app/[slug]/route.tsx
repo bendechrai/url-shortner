@@ -3,7 +3,6 @@ import { redirect } from "next/navigation";
 import ip from "@arcjet/ip";
 import { getRedirect, logRequest, LogRequestMessage } from "@/lib/database";
 import { getUserGeoInfo } from "@/lib/ipgeolocation";
-// import { headers } from "next/headers";
 import { NextRequest } from "next/server";
 
 export async function GET(
