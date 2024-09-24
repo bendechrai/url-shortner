@@ -1,0 +1,17 @@
+{
+  "name": "upload-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "uploadData": "op --env-file='.env.local' run node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "pg": "^8.13.0"
+  }
+}
